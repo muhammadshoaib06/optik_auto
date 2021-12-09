@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="22sp"
+        android:paddingLeft="22sp"
+        android:text="@string/login"
+        android:textSize="26sp" />
+
+
+    <EditText
+        android:id="@+id/login_email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22sp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="5dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12sp"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/ic_baseline_email_24" />
+
+
+    <EditText
+        android:id="@+id/login_password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22sp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12sp"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="22sp"
+        android:paddingLeft="22sp"
+        android:text="By logging in you are agreeing to \nall the user terms and policies"
+        android:textSize="12sp" />
+
+
+    <Button
+        android:id="@+id/login_screen_login_button"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/welcome_screen_button"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

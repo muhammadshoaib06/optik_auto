@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E8E8"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0sp"
+        android:gravity="center"
+        android:text="Welcome to OPTIKAUTO \nRecord Keeping"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Create Account To Add \nNew Car into the Database"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/welcome_screen_button"
+        android:text="@string/create_account"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/welcome_screen_login"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/welcome_screen_button"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
