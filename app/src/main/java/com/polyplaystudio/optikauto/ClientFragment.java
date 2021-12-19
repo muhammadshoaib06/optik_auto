@@ -13,7 +13,6 @@ public class ClientFragment extends Fragment {
     ListView list;
 
     public ClientFragment() {
-        // Required empty public constructor
     }
 
 

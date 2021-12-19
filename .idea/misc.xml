@@ -7,8 +7,13 @@
         <entry key="app/src/main/res/drawable/bottom_navigation_design.xml" value="0.25833333333333336" />
         <entry key="app/src/main/res/drawable/editTextBackground.xml" value="0.2969230769230769" />
         <entry key="app/src/main/res/drawable/edit_text_background.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/activity_alert.xml" value="0.19882246376811594" />
+        <entry key="app/src/main/res/layout/activity_arriving_result.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/layout/activity_arriving_scan.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_bottom_navigation_screen.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_create_account_screen.xml" value="0.23822463768115942" />
+        <entry key="app/src/main/res/layout/activity_exit_result.xml" value="0.19882246376811594" />
+        <entry key="app/src/main/res/layout/activity_exit_scan.xml" value="0.28541666666666665" />
         <entry key="app/src/main/res/layout/activity_login_screen.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.335" />
         <entry key="app/src/main/res/layout/fragment_client.xml" value="0.20471014492753623" />

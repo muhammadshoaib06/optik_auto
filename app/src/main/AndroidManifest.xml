@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.polyplaystudio.optikauto">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,9 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OpTikAuto">
         <activity
+            android:name=".AlertActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExitResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExitScanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ArrivingResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ArrivingScanActivity"
+            android:exported="true" />
+        <activity
             android:name=".BottomNavigationScreen"
-            android:exported="true"/>
-
+            android:exported="true" />
         <activity android:name=".LoginScreen" />
         <activity android:name=".CreateAccountScreen" />
         <activity

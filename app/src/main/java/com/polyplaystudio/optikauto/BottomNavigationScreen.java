@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.util.Objects;
+
 public class BottomNavigationScreen extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     BottomNavigationView bottomNavigationView;
@@ -17,7 +19,7 @@ public class BottomNavigationScreen extends AppCompatActivity implements BottomN
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottom_navigation_screen);
-        //getActionBar().hide();
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 

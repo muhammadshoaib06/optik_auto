@@ -15,22 +15,21 @@
         android:layout_height="59dp"
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="3dp"
         android:layout_marginRight="3dp"
         android:src="@drawable/img"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/bell_icon"
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
+        android:id="@+id/bell_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
         android:src="@drawable/ic_baseline_notifications_active_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -42,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginLeft="35dp"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="33dp"
         android:layout_marginEnd="234dp"
         android:layout_marginRight="234dp"
         android:text="Welcome Shervin, "
@@ -53,12 +52,12 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/arriving_image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginStart="35dp"
         android:layout_marginLeft="35dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="35dp"
         android:layout_marginRight="35dp"
         android:src="@drawable/home_submit"
@@ -67,7 +66,7 @@
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/exit_image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginStart="35dp"
@@ -78,5 +77,5 @@
         android:src="@drawable/home_exit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/arriving_image" />
 </androidx.constraintlayout.widget.ConstraintLayout>
